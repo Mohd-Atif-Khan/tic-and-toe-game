@@ -67,8 +67,9 @@ body{
     }
   }
 .cont{
-    height: 70vh;
+    height: 65vh;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -113,7 +114,7 @@ body{
     font-size: 8vmin;
 }
 .msg-cont{
-    height: 30vmin;
+    height: 20vmin;
 }
 .hide{
     display: none;

@@ -40,7 +40,9 @@ boxes.forEach((box) => {
     }
     box.disabled = true;
     checkWinner();
+    
    })
+  
 })
 const disableboxes =()=>{
     for(let box of boxes){
@@ -74,8 +76,12 @@ const checkWinner = () => {
                 return true;
             }
         }
+        
     }
 };
+
+
+
 
 newbtn.addEventListener("click",resetgame);
 reset.addEventListener("click",resetgame)
